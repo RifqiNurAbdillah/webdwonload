@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+}
+
+.content-box {
+    text-align: center;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 450px;
+    max-width: 95%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #833ab4; /* IG purple gradient main */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000; /* hitam */
+}
+
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.result-box {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.result-box img {
+    width: 180px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 500px) {
+    form {
+        flex-direction: column;
+    }
+    button {
+        width: 100%;
+    }
+}
