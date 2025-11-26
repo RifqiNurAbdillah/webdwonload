@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-/* Main container */
+
 .app-container {
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     min-height: calc(100vh - 70px);
 }
 
-/* White box */
+
 .content-box {
     text-align: center;
     background: #fff;
@@ -32,7 +32,7 @@ h1 {
 h1 {
     margin-bottom: 20px;
     font-weight: bold;
-    color: #000; /* hitam */
+    color: #000; 
 }
 
 
@@ -94,13 +94,10 @@ button:hover {
     background: #0056b3;
 }
 
-/* MOBILE FIX */
-@media (max-width: 500px) {
-    form {
-        flex-direction: column;
-    }
 
-    button {
-        width: 100%;
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        justify-content: flex-end;
     }
 }

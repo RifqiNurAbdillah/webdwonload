@@ -24,13 +24,13 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #833ab4; /* IG purple gradient main */
+    color: #833ab4; 
 }
 
 h1 {
     margin-bottom: 20px;
     font-weight: bold;
-    color: #000; /* hitam */
+    color: #000;
 }
 
 
@@ -93,11 +93,8 @@ button:hover {
     opacity: 0.9;
 }
 
-@media (max-width: 500px) {
-    form {
-        flex-direction: column;
-    }
-    button {
-        width: 100%;
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        justify-content: flex-end;
     }
 }
